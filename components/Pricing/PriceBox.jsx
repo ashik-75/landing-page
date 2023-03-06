@@ -1,7 +1,7 @@
 function PriceBox(props) {
   const { children, duration, subtitle, packagename, price } = props;
   return (
-    <div className="space-y-4 rounded-lg p-5 shadow-xl dark:bg-blue-600/20 md:p-10">
+    <div className="space-y-4 rounded-lg p-5 shadow dark:bg-blue-600/20 md:p-10">
       <div className="flex justify-between">
         <h2 className="text-2xl font-extrabold text-gray-600 dark:text-white">
           ${price}

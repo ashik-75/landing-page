@@ -42,8 +42,8 @@ function Contact() {
               ></textarea>
             </div>
             <div>
-              <button className="rounded border border-zinc-200 px-6 py-3 text-lg font-bold tracking-wider text-gray-600 shadow dark:border-zinc-500 dark:text-gray-400 dark:text-white">
-                Submit Ticket
+              <button className="rounded bg-purple-600 px-4 py-2 text-white">
+                Submit
               </button>
             </div>
           </form>
